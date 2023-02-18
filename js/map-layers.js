@@ -15,10 +15,10 @@
       })
 
       instance.addLayer('wms', {
-        title: 'PL Działki katastralne',
-        url: 'https://mapy.geoportal.gov.pl/wss/service/INSPIRE_CP/guest',
+        title: 'PL Działki i budynki',
+        url: 'https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow',
         params: {
-          LAYERS: 'CP.CadastralParcel',
+          LAYERS: 'dzialki,numery_dzialek,budynki',
         },
         visible: false,
         base: false,
