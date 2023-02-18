@@ -1,0 +1,10 @@
+{
+  "name": "drupal/farm_map_poland",
+  "description": "Polish map layers for farmOS maps.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/farm_map_poland",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "farmos/farmos": "^2"
+  }
+}

@@ -1,0 +1,7 @@
+name: farmOS Map Poland
+description: Polish map layers for farmOS maps.
+type: module
+package: farmOS Contrib
+core_version_requirement: ^9.5 || ^10
+dependencies:
+ - farm_map

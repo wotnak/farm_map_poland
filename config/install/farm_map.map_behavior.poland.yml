@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_map_poland
+id: poland
+label: Poland
+description: 'Displays polish map layers.'
+library: 'farm_map_poland/map_layers'
+settings: {}

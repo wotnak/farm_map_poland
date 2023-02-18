@@ -1,0 +1,5 @@
+map_layers:
+  js:
+    js/map-layers.js: {}
+  dependencies:
+    - farm_map/farm_map

@@ -1,0 +1,5 @@
+services:
+  farm_map_poland.map_render_subscriber:
+    class: '\Drupal\farm_map_poland\EventSubscriber\MapRenderSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
